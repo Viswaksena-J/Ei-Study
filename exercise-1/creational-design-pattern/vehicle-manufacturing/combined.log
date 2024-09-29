@@ -7,3 +7,4 @@
 {"level":"info","message":"Vehicle created: Car","service":"vehicle-factory"}
 {"level":"info","message":"Vehicle created: Car","service":"vehicle-factory"}
 {"level":"info","message":"Vehicle created: Car","service":"vehicle-factory"}
+{"level":"info","message":"Application terminated by user","service":"vehicle-factory"}
