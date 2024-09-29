@@ -21,7 +21,7 @@ Virtual Classroom Manager is a TypeScript-based console application designed to 
 
 2. Navigate to the project directory:
    ```
-   cd virtual-classroom-manager
+   cd Ei-Study/exercise-2/virtual-classroom-manager
    ```
 
 3. Install dependencies:

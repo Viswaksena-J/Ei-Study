@@ -52,7 +52,7 @@ To install and run this application locally, follow the steps below:
 
    ```bash
    git clone https://github.com/Viswaksena-J/Ei-Study.git
-   cd Ei-Study/exercise-1/behavioral-design-pattern/stock-price-tracker/stock-price-tracker
+   cd Ei-Study/exercise-1/behavioral-design-pattern/stock-price-tracker
    ```
 
 2. Install the project dependencies:
