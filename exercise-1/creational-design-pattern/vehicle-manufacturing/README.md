@@ -31,7 +31,7 @@ To set up the Vehicle Manufacturing System on your local machine, follow these s
 2. Clone the repository:
    ```
    git clone https://github.com/Viswaksena-J/Ei-Study.git
-   cd Ei-Study/exercise-1/creational-design-pattern/vehicle-manufacturing-system
+   cd Ei-Study/exercise-1/creational-design-pattern/vehicle-manufacturing
    ```
 
 3. Install the required dependencies:

@@ -45,7 +45,7 @@ To install and run the project, follow these steps:
 
 2. **Navigate to the project directory**:
    ```bash
-   cd Ei-Study/exercise-1/structural-design-pattern/legacy-data-conversion
+   cd Ei-Study/exercise-1/structural-design-pattern/data-migration-tool
    ```
 
 3. **Install dependencies**:
