@@ -1,4 +1,3 @@
-// utils/Logger.ts
 export class Logger {
     public logInfo(message: string): void {
       console.info(`[INFO]: ${message}`);

@@ -1,4 +1,3 @@
-// adapters/LegacyDataAdapter.ts
 import { LegacyData, LegacySystem } from "../legacy/LegacySystem";
 import { NewData, NewSystem } from "../new/NewSystem";
 import { Logger } from "../utils/Logger";
@@ -14,19 +13,15 @@ export class LegacyDataAdapter {
     this.logger = new Logger();
   }
 
-  // Method adapted to return the converted data
   public adaptAndProcess(): NewData[] {
     try {
       const legacyData: LegacyData[] = this.legacySystem.getData();
       const newData: NewData[] = legacyData.map(data => this.convertToNewData(data));
       
-      // Log converted data
       this.logger.logInfo("Converted data successfully.");
       
-      // Process data with new system
       this.newSystem.processData(newData);
 
-      // Return the converted data
       return newData;
     } catch (error) {
       this.logger.logError("Error in data conversion", error);

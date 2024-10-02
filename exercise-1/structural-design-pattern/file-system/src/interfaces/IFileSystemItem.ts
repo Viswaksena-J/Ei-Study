@@ -1,4 +1,3 @@
-// src/interfaces/IFileSystemItem.ts
 export interface IFileSystemItem {
     getName(): string;
     getSize(): number;

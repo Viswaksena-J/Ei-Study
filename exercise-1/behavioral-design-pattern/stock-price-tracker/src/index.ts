@@ -10,11 +10,9 @@ function runStockMarketApp(): void {
     googleStock.registerObserver(user1);
     googleStock.registerObserver(user2);
 
-    // Simulate stock price updates
     googleStock.setPrice(1550);
     googleStock.setPrice(1600);
 
-    // Remove one observer and update price
     googleStock.removeObserver(user1);
     googleStock.setPrice(1625);
 }

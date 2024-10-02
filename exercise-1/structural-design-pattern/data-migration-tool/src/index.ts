@@ -1,4 +1,3 @@
-// index.ts
 import { LegacySystem } from "./legacy/LegacySystem";
 import { NewSystem } from "./new/NewSystem";
 import { LegacyDataAdapter } from "./adapters/LegacyDataAdapter";
@@ -17,7 +16,6 @@ async function runApp() {
     // Adapt and retrieve converted data
     const convertedData = adapter.adaptAndProcess();
     
-    // Display converted data
     logger.logInfo("Converted Data: ");
     convertedData.forEach(data => {
       logger.logInfo(`

@@ -1,4 +1,3 @@
-// new/NewSystem.ts
 export interface NewData {
     id: string;
     fullName: string;
@@ -8,7 +7,6 @@ export interface NewData {
   export class NewSystem {
     public processData(data: NewData[]): void {
       console.log("Processing data in the new format", data);
-      // Imagine the data is processed or saved here
     }
   }
   
